@@ -1,0 +1,65 @@
+.About_service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.serviceHeader{
+    padding: 2rem;
+}
+.icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+small{
+    font-size: 18px;
+    margin: 1.3rem 0 ;
+    padding: 3rem 0;
+}
+.content{
+    border-radius: 1rem;
+    border: 2px solid var(--color-primary-variant);
+    background: var(--color-bg-variant);
+}
+.content:hover{
+    background: transparent;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.serviceHeader{
+    background: var(--color-primary);
+    border-radius: 0 0 10% 10%;
+    text-align: center;
+    
+}
+.main{
+    margin: 0.3rem 1rem;
+}
+
+@media screen and (max-width:1024px){
+    .content{
+        width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .About_service{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+}
+@media screen and (max-width:600px){
+
+    .About_service{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 1rem;
+    }
+    .serviceHeader{
+        margin: -0.9rem -1rem;
+        border-radius: 10px 10px 10% 10%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+}

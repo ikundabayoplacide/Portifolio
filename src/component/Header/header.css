@@ -1,0 +1,89 @@
+Header{
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+/*---------------------- style for cat -----------------*/
+.cta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+/* -----------------------Header Socials ------------------*/
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    cursor: pointer;
+    
+}
+
+.media::after{
+    content: '';
+    height: 2rem;
+    width: 2px;
+    background-color: var(--color-primary);
+}
+
+/* ------------------- my picture -------------------*/
+
+.photo{
+    background:linear-gradient(var(--color-primary),transparent);
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 195px 195px 0px 0px;
+    padding: -10rem 0.5rem ;
+}
+
+.scrolldown{
+        position: absolute;
+        bottom: 5rem;
+        right: -2rem;
+         transform: rotate(90deg);
+
+}
+@media screen and (max-width:1025px) {
+    header{
+        height: 60hv;
+       
+    }
+    .media,.scrolldown{
+        bottom: 700px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    header{
+        height: 90vh;
+        margin-bottom: -10rem;
+       
+        }
+        .media,.scrolldown{
+            display: none;
+    }
+
+     .photo,.photoes{
+        width: 20rem;
+        height: auto;
+    }
+ 
+   
+}
