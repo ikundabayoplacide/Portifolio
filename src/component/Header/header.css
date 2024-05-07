@@ -1,12 +1,12 @@
 Header{
-    height: 110vh;
+    height: fit-content;
     padding-top: 1rem;
     overflow: hidden;
 }
 
 .header_container{
     text-align: center;
-    height: 100%;
+    height: fit-content;
     position: relative;
 }
 /*---------------------- style for cat -----------------*/
@@ -151,8 +151,7 @@ Header{
     
 }
 
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px), (width:600px){
     header{
         height: 90vh;
         margin-bottom: -10rem;
