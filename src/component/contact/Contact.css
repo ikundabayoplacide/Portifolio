@@ -43,6 +43,10 @@ input,textarea{
 
 @media screen and (max-width:600px) {
     .about_contact{
-  width: var(--container-width-sm);
-    
-}}
+  width: var(--container-width-sm); 
+}
+.details{
+width: 100%;
+}
+
+}
