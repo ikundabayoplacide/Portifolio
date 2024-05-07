@@ -14,7 +14,8 @@ article:hover{
 }
 .experience_container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+   
 }
 .about_Experience,.experience_content:hover{
     background: transparent;
@@ -52,7 +53,7 @@ article:hover{
  
     
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px),(width:600px) {
     #experience{
         margin-top: 5rem;
     }
@@ -63,8 +64,11 @@ article:hover{
 
     }
     .experience_content{
-        width: 110%;
-        margin-left: -2rem;
+        width: 100%;
+        padding-left:2rem;
+        padding-right: 2rem;
     }
+  
+  
     
 }

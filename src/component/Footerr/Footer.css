@@ -47,16 +47,18 @@ footer a{
     margin-bottom: 4rem;
         color: var(--color-bg);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px),(width:600px) {
 
     .permlinks{
         flex-direction: column;
         gap: 1.5rem;
     }
     .socialmedias{
+        gap:3px;
+        align-items: center;
         margin-bottom: 2.7rem;
     }
     .socialmedias a{
-        font-size: 13px;
+        font-size: 10px;
     }
 }

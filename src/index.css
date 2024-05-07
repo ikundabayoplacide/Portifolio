@@ -98,6 +98,9 @@ a:hover{
     width: 100%;
     object-fit: cover;
 }
+.cta{
+    margin-left: 1rem;
+}
 /* -----------media devices---------------*/
 
 @media screen and (max-width:1024px){
@@ -119,6 +122,11 @@ a:hover{
     section > h2{
         margin-bottom: 2rem;
     }
-
+    .cta{
+        height: 3rem;
+    }
+    .cv,.btn-primary{
+        white-space: nowrap;
+    }
     
 }

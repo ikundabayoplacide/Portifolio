@@ -174,5 +174,9 @@ Header{
     h1{
         font-size: 0px;
     }
+    Header{
+        height: 40rem;
+       
+    }
    
 }

@@ -46,7 +46,10 @@ input,textarea{
   width: var(--container-width-sm); 
 }
 .details{
-width: 100%;
+width: 97%;
+}
+.messages{
+    width: 97%;
 }
 
 }
