@@ -54,19 +54,19 @@ const Contact = () => {
       <div className="container about_contact">
         <div className="contact_details">
           <article className="details">
-            <MdEmail className='icons' size={32}/>
+            <MdEmail className='icons' color='#50C4ED' size={32}/>
             <h3>Email</h3>
             <h5 className='emaildetail'> ikundabayoplacide500@gmail.com</h5>
             <a href="mailto:ikundabayoplacide500@gmail.com" target="_blank" rel="noreferrer"> Send Message</a>
           </article>
           <article className="details">
-            <RiMessengerFill className='icons' size={32}/>
+            <RiMessengerFill className='icons'color='#50C4ED' size={32}/>
           <h3>Messanger</h3>
           <h5 className='messageDetails'>ikundabayoplacide</h5>
           <a href="https://www.facebook.com/ikundabayoplacide.madiba/" target="_blank" rel="noreferrer"> Send Message</a>
           </article>
           <article className="details">
-            <FaWhatsappSquare className='icons' size={32}/>
+            <FaWhatsappSquare className='icons' color='#50C4ED' size={32}/>
           <h3>Whatsapp</h3>
           <h5 className="whatsapDetails"> +250 789897235</h5>
           <a href="https://api.whatsapp.com/send?phone+250789897235" target="_blank" rel="noreferrer"> Send Message</a>

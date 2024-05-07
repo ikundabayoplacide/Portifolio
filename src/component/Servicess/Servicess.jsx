@@ -7,73 +7,50 @@ const Servicess = () => {
       <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container About_service">
-        <div className="content">
-          <div className="serviceHeader">
-          <h3> UI Design</h3>
-          </div>
-          <div className="main">
-            <div>
-            <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
-            </div>
-            <div>
-            <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
-            </div>
-            <div>
-            <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
-            </div>
-            <div>
-            <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
-            </div>
-            </div>
-          </div>
           <div className="content">
           <div className="serviceHeader">
-          <h3> Web Development</h3>
+          <h3> Software Development</h3>
           </div>
 
           <div className="main">
           <div>
           <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Web Application  </small>
             </div>
             <div>
             <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Mobile Application </small>
             </div>
             <div>
             <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Wordpress Web Development</small>
             </div>
             <div>
             <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small>Application Debbuging</small>
             </div>
             </div>
           </div>
           <div className="content">
           <div className="serviceHeader">
-          <h3>Content Creation</h3>
+          <h3>Content Creation & Design</h3>
           </div>
           <div className="main">
           <div>
           <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Figma Design </small>
             </div>
             <div>
             <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Graphic Design  </small>
             </div>
             <div>
             <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Application Content Creation </small>
             </div>
             <div>
            <FaCheck className='icon'/>
-            <small> Am Beginner in development </small>
+            <small> Application Content Creation </small>
             </div>
             </div>
           </div>

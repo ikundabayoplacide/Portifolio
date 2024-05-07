@@ -7,7 +7,7 @@ import './Footer.css'
 const Footerr = () => {
   return (
     <footer>
-    <a href="#"className='footerlogo'> UR</a>
+    <a href="#"className='footerlogo'> MORE</a>
     <ul className='permlinks'>
    <li><a href="#">Home</a></li>
    <li><a href="#about">About</a></li> 

@@ -58,9 +58,13 @@ article:hover{
     }
   
     .experience_container > div{
-        margin: 0 4rem 0 0;
-        width: 70%;
+        margin: 0;
+        width: 50%;
 
+    }
+    .experience_content{
+        width: 110%;
+        margin-left: -2rem;
     }
     
 }
