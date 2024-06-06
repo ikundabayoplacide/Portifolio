@@ -29,15 +29,15 @@ const Experience = () => {
   <article className='ExpeDetails'>
     <FaCheckCircle className='icon'/> 
     <div>
-    <h3>JavaScript</h3>
-    <small className='ExpText'>Intermediate</small>
+    <h3>React</h3>
+    <small className='ExpText'>Experienced</small>
     </div>
   </article>
   
   <article className='ExpeDetails'>
     <FaCheckCircle className='icon'/> 
     <div>
-    <h3>React</h3>
+    <h3>JavaScript</h3>
     <small className='ExpText'>Intermediate</small>
     </div>
   </article>
