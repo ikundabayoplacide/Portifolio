@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../Assets/IKUNDABAYO Placide Resume.pdf';
+import CV from '../../Assets/Placide_resume.pdf';
 
 const CVA = () => {
   return (
